@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SMDProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".edit_profile_screen_activity"
+            android:exported="false" />
+        <activity
+            android:name=".notification_screen_activity"
+            android:exported="false" />
+        <activity
+            android:name=".add__upload__screen_activity"
+            android:exported="false" />
+        <activity
+            android:name=".add__record__activity"
+            android:exported="false" />
+        <activity
+            android:name=".add__record__screen_activity"
+            android:exported="false" />
+        <activity
+            android:name=".downloads__screen_activity"
+            android:exported="false" />
+        <activity
+            android:name=".library_by_you__screen_activity"
+            android:exported="false" />
+        <activity
+            android:name=".search_screen_activity"
+            android:exported="false" />
+        <activity
+            android:name=".library_playlist__screen_activity"
+            android:exported="false" />
+        <activity
+            android:name=".signup_screen_activity"
+            android:exported="false" />
+        <activity
+            android:name=".login_screen_activity"
+            android:exported="false" />
+        <activity
+            android:name=".android_small___1_activity"
+            android:exported="false" />
+        <activity
+            android:name=".home_screen_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

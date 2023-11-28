@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- _bg__signup_screen from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle" >
+	<solid android:color="@color/_bg__signup_screen_color" />
+	<gradient android:angle="270" android:type="linear" android:startColor="#ff27114b" android:centerColor="#ff5d1243" android:endColor="#ff1e1e1e" />
+</shape>
+

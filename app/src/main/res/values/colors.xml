@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- home_screen colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="_bg__home_screen_color">#000000</color>
+    <color name="welcome_color">#FFFFFF</color>
+    <color name="rectangle_6_color">#1E1E1E</color>
+    <color name="rectangle_19_color">#ffffff</color>
+    <color name="rectangle_20_color">#27114B</color>
+
+    <!-- android_small___1 colors -->
+
+    <color name="_bg__android_small___1_color">#000000</color>
+
+    <!-- login_screen colors -->
+
+    <color name="_bg__login_screen_color">#000000</color>
+    <color name="rectangle_1_color">#D9D9D9</color>
+    <color name="rectangle_4_color">#ffffff</color>
+    <color name="username_color">#FFFFFF</color>
+    <color name="insert_your_username_color">#504E4E</color>
+
+
+    <!-- signup_screen colors -->
+    <color name="_bg__signup_screen_color">#000000</color>
+    <color name="rectangle_5_color">#ffffff</color>
+
+    <!-- library_playlist__screen colors -->
+
+    <color name="_bg__library_playlist__screen_color">#000000</color>
+    <color name="khayaal_color">#FFFFFF</color>
+
+
+
+    <!-- search_screen colors -->
+
+    <color name="_bg__search_screen_color">#000000</color>
+    <color name="search_color">#FFFFFF</color>
+    <color name="rectangle_22_color">#1E1E1E</color>
+    <color name="rectangle_23_color">#241734</color>
+    <color name="what_do_you_want_to_listen__color">#656565</color>
+
+
+    <!-- library_by_you__screen colors -->
+
+    <color name="_bg__library_by_you__screen_color">#000000</color>
+
+
+
+    <!-- add__record__screen colors -->
+
+    <color name="_bg__add__record__screen_color">#000000</color>
+    <color name="rectangle_41_color">#241734</color>
+
+
+
+    <!-- add__upload__screen colors -->
+
+    <color name="_bg__add__upload__screen_color">#000000</color>
+    <color name="rectangle_43_color">#241734</color>
+    <color name="name_color">#504E4E</color>
+
+
+    <!-- notification_screen colors -->
+
+
+    <color name="_bg__notification_screen_color">#000000</color>
+
+
+
+</resources>

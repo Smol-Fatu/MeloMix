@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">SMDProject</string>
+    <!-- home_screen strings -->
+
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="welcome_string">Welcome</string>
+    <string name="recommendations_string">Recommendations</string>
+    <string name="trending_artists_string">Trending Artists</string>
+    <string name="trending_songs_string">Trending Songs</string>
+    <string name="atif_aslam_string">Atif Aslam</string>
+    <string name="her_string">Her</string>
+    <string name="desire_string">Desire</string>
+    <string name="khayaal_string">Khayaal</string>
+    <string name="sprinter_string">Sprinter</string>
+    <string name="shubh_string">Shubh</string>
+    <string name="ap_dillon_string">AP Dillon</string>
+    <string name="sidhu_string">Sidhu</string>
+    <string name="abdur_raheem_string">Abdur Raheem </string>
+    <string name="post_malone_string">Post Malone</string>
+    <string name="reputation_string">Reputation</string>
+    <string name="real_love_string">Real Love</string>
+    <string name="tonigtt_string">Tonigtt</string>
+    <string name="no_sleep_string">No Sleep</string>
+    <string name="evermore_string">Evermore</string>
+    <string name="featured_playlists_string">Featured Playlists</string>
+    <string name="wild_dreams_string">Wild Dreams</string>
+    <string name="no_sleep_ek1_string">No Sleep </string>
+    <string name="wild_dreams_ek1_string">Wild Dreams</string>
+    <string name="taylor_swift_string">Taylor Swift</string>
+    <string name="martin_garrix_string">Martin Garrix</string>
+    <string name="taylor_swift_ek1_string">Taylor Swift</string>
+    <string name="khayaal_ek1_string">Khayaal</string>
+    <string name="tailwinder_string">Tailwinder</string>
+
+    <!-- login_screen strings -->
+    <string name="username_string">Username</string>
+    <string name="password_string">Password</string>
+    <string name="google_string">Google</string>
+    <string name="facebook_string">FaceBook</string>
+    <string name="apple_string">Apple</string>
+    <string name="log_in_string">Log In</string>
+    <string name="remember_me_string">Remember me</string>
+    <string name="forgot_password__string">Forgot Password?</string>
+    <string name="or_string">Or</string>
+    <string name="insert_your_username_string">Insert your username</string>
+    <string name="insert_your_password_string">Insert your password</string>
+    <string name="don_t_have_an_account__sign_up_string">Don\'t have an account? Sign Up</string>
+
+
+    <!-- signup_screen strings -->
+
+    <string name="name_string">Name</string>
+    <string name="email_string">Email</string>
+    <string name="insert_your_name_string">Insert your name</string>
+    <string name="emial_gmisl_com_string">email@gmail.com</string>
+    <string name="sign_up_string">Sign Up</string>
+
+
+    <!-- library_playlist__screen strings -->
+
+    <string name="playlist_string">Playlist</string>
+    <string name="by_you_string">By You</string>
+    <string name="downloaded_string">Downloaded</string>
+    <string name="your_playlists_string">Your Playlists</string>
+    <string name="liked_songs_string">Liked Songs</string>
+    <string name="martin_garixx_string">Martin Garixx</string>
+    <string name="shubh_songs_string">Shubh Songs</string>
+    <string name="_10_songs_string">10 Songs</string>
+    <string name="_10_songs_ek1_string">10 Songs</string>
+    <string name="_10_songs_ek2_string">10 Songs</string>
+
+
+    <!-- search_screen strings -->
+
+    <string name="search_string">Search</string>
+    <string name="search_ek1_string">Search</string>
+    <string name="search_ek2_string">Search</string>
+    <string name="what_do_you_want_to_listen__string">What do you want to listen?</string>
+    <string name="recent_searches_string">Recent Searches</string>
+    <string name="aankhein_khuli_string">Aankhein Khuli</string>
+    <string name="aankhein_khuli_ek1_string">Aankhein Khuli</string>
+    <string name="aankhein_khuli_ek2_string">Aankhein Khuli</string>
+    <string name="aankhein_khuli_ek3_string">Aankhein Khuli</string>
+    <string name="aankhein_khuli_ek4_string">Aankhein Khuli</string>
+    <string name="aankhein_khuli_ek5_string">Aankhein Khuli</string>
+    <string name="song__latamangeshkar_string">Song. LataMangeshkar</string>
+    <string name="song__latamangeshkar_ek1_string">Song. LataMangeshkar</string>
+    <string name="song__latamangeshkar_ek2_string">Song. LataMangeshkar</string>
+    <string name="song__latamangeshkar_ek3_string">Song. LataMangeshkar</string>
+    <string name="song__latamangeshkar_ek4_string">Song. LataMangeshkar</string>
+    <string name="song__latamangeshkar_ek5_string">Song. LataMangeshkar</string>
+
+
+    <!-- library_by_you__screen strings -->
+
+    <string name="your_uploads_string">Your Uploads</string>
+
+    <!-- library_by_you__screen strings -->
+
+    <string name="downloads_string">Downloads</string>
+    <string name="your_downloads_string">Your Downloads</string>
+    <string name="taylor_swift_ek2_string">Taylor Swift</string>
+    <string name="taylor_swift_ek3_string">Taylor Swift</string>
+    <string name="taylor_swift_ek4_string">Taylor Swift</string>
+    <string name="taylor_swift_ek5_string">Taylor Swift</string>
+    <string name="taylor_swift_ek6_string">Taylor Swift</string>
+
+    <!-- add__record__screen strings -->
+
+    <string name="record_string">Record</string>
+    <string name="upload_string">Upload</string>
+    <string name="all_recodings_string">All Recodings</string>
+
+    <!-- add__upload__screen strings -->
+
+    <string name="upload_ek1_string">Upload </string>
+    <string name="create_playlist_string">Create Playlist</string>
+
+
+    <!-- notification_screen strings -->
+
+    <string name="notification_string">Notification</string>
+    <string name="new_song_out_by_atif_string">New Song Out by Atif</string>
+    <string name="new_playlist_out_by_atif_string">New Playlist Out by Atif</string>
+    <string name="raheem_uploaded_a_new_song_string">Raheem Uploaded a new song</string>
+    <string name="new_song_out_by_atif_ek1_string">New Song Out by Atif</string>
+
+    <!-- editprofile_screen strings -->
+
+    <string name="user_profile_string">User Profile</string>
+    <string name="raheemqureshi597_gmail_com_string">raheemqureshi597@gmail.com</string>
+    <string name="settings_string">Settings</string>
+    <string name="abdurraheem11_string">abdurraheem11</string>
+    <string name="log_out_string">Log Out</string>
+
+</resources>
