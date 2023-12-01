@@ -11,19 +11,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <View   android:id="@+id/username"
-        android:background="@drawable/rectangle_1_shape"
+    <EditText   android:id="@+id/username"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="178dp"
         android:layout_width="288dp"
-        android:layout_height="45dp" />
+        android:layout_height="45dp"
+        android:paddingLeft="15dp"
+        android:hint="Insert your username"
+        android:textColor="@color/insert_your_username_color"
+        android:inputType="text"
+        android:background="@drawable/rounded_text_background" />
 
-    <View   android:id="@+id/password"
-        android:background="@drawable/rectangle_2_shape"
+
+    <EditText   android:id="@+id/password"
+        android:background="@drawable/rounded_text_background"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="284dp"
         android:layout_width="288dp"
-        android:layout_height="45dp" />
+        android:layout_height="45dp"
+        android:paddingLeft="15dp"
+        android:textColor="@color/insert_your_username_color"
+        android:inputType="text"
+        android:hint="Insert your password"
+        />
 
     <View   android:id="@+id/login"
         android:background="@drawable/rectangle_4_shape"
@@ -122,25 +132,7 @@
         android:text="@string/or_string"
         />
 
-    <TextView android:id="@+id/insert_your_username"
-        android:textSize="18sp"
-        android:textColor="@color/insert_your_username_color"
-        android:layout_marginLeft="86dp"
-        android:layout_marginTop="188dp"
-        android:layout_width="191.8dp"
-        android:layout_height="21.8dp"
-        android:text="@string/insert_your_username_string"
-        />
 
-    <TextView android:id="@+id/insert_your_password"
-        android:textSize="18sp"
-        android:textColor="@color/insert_your_username_color"
-        android:layout_marginLeft="86dp"
-        android:layout_marginTop="295dp"
-        android:layout_width="191.8dp"
-        android:layout_height="21.8dp"
-        android:text="@string/insert_your_password_string"
-        />
 
     <View   android:id="@+id/rmmbrme"
         android:background="@drawable/baseline_check_box_outline_blank_24"
