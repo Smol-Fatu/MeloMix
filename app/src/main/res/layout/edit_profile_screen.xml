@@ -42,7 +42,7 @@
         android:layout_marginTop="31dp"
         android:layout_width="206.5dp"
         android:layout_height="38.5dp"
-        android:text="@string/user_profile_string"
+        android:text="Edit Profile"
         />
 
     <ImageView android:id="@+id/line_3"

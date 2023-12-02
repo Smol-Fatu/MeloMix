@@ -59,7 +59,7 @@
                     android:layout_height="wrap_content"
                     >
 
-                    <ImageView android:id="@+id/vector_ek3"
+                    <ImageView android:id="@+id/notification"
                         android:src="@drawable/bell"
                         android:contentDescription="vector_ek3"
                         android:layout_marginStart="0dp"
