@@ -14,6 +14,7 @@
 
 
     <RelativeLayout
+        android:id="@+id/bottom"
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -46,7 +47,7 @@
                 android:layout_height="wrap_content"
                 >
 
-                <ImageView android:id="@+id/vector_ek1"
+                <ImageView android:id="@+id/playlist"
                     android:src="@drawable/library"
                     android:contentDescription="vector_ek1"
                     android:layout_marginStart="4.57dp"
@@ -56,7 +57,7 @@
 
             </RelativeLayout>
 
-            <ImageView android:id="@+id/vector_ek2"
+            <ImageView android:id="@+id/search"
                 android:src="@drawable/search"
                 android:contentDescription="vector_ek2"
                 android:layout_marginStart="134.72dp"
@@ -71,7 +72,7 @@
                 android:layout_height="wrap_content"
                 >
 
-                <ImageView android:id="@+id/vector_ek3"
+                <ImageView android:id="@+id/home"
                     android:src="@drawable/home"
                     android:contentDescription="vector_ek3"
                     android:layout_marginStart="3.43dp"
@@ -87,7 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 >
-                <ImageView android:id="@+id/vector_ek4"
+                <ImageView android:id="@+id/add"
                     android:src="@drawable/add"
                     android:contentDescription="vector_ek4"
                     android:layout_marginStart="3.42dp"
@@ -162,7 +163,7 @@
         </RelativeLayout>
     </RelativeLayout>
 
-    <TextView android:id="@+id/search"
+    <TextView
         android:textSize="25sp"
         android:textColor="@color/search_color"
         android:layout_marginLeft="43dp"

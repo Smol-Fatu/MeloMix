@@ -21,7 +21,7 @@
                 android:layout_marginTop="0dp"
                 android:background="@drawable/_bg__home_screen_shape" />
 
-            <RelativeLayout android:id="@+id/fluent_add_16_filled"
+            <RelativeLayout
                 android:layout_marginTop="445dp"
                 android:layout_marginStart="173dp"
                 android:layout_width="wrap_content"
@@ -176,7 +176,7 @@
                 android:text="@string/desire_string"
                 />
 
-            <TextView android:id="@+id/khayaal"
+            <TextView
                 android:textSize="12sp"
                 android:textColor="@color/welcome_color"
                 android:layout_marginLeft="131dp"
@@ -648,12 +648,9 @@
 
     </ScrollView>
     <RelativeLayout
-        android:id="@+id/bottom"
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-
-
         <RelativeLayout android:id="@+id/component_1"
             android:layout_below="@+id/component_2"
             android:layout_width="wrap_content"
@@ -683,7 +680,7 @@
                 android:layout_height="wrap_content"
                 >
 
-                <ImageView android:id="@+id/library"
+                <ImageView android:id="@+id/playlist"
                     android:src="@drawable/library"
                     android:contentDescription="vector_ek1"
                     android:layout_marginStart="4.57dp"
@@ -718,7 +715,7 @@
 
             </RelativeLayout>
 
-            <RelativeLayout
+            <RelativeLayout android:id="@+id/fluent_add_16_filled"
                 android:layout_marginTop="11dp"
                 android:layout_marginStart="247.74dp"
                 android:layout_width="wrap_content"
@@ -786,7 +783,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/play"
+                    android:id="@+id/playbtn"
                     android:src="@drawable/play"
                     android:contentDescription="vector_ek5"
                     android:layout_marginStart="1.5dp"
@@ -797,6 +794,5 @@
             </RelativeLayout>
 
         </RelativeLayout>
-
     </RelativeLayout>
 </RelativeLayout>

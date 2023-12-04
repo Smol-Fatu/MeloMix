@@ -5,74 +5,92 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <View   android:id="@+id/_bg__add__upload__screen"
-        android:background="@drawable/_bg__add__upload__screen_shape"
+    <View
+        android:id="@+id/_bg__add__upload__screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:background="@drawable/_bg__add__upload__screen_shape" />
 
-    <View   android:id="@+id/rectangle_43"
+    <ImageView   android:id="@+id/rectangle_73"
         android:background="@drawable/rectangle_43_shape"
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="351dp"
-        android:layout_width="100dp"
-        android:layout_height="100dp" />
-
-
-
-
-
-    <RelativeLayout android:id="@+id/fluent_add_16_filled_ek2"
-        android:layout_marginTop="369dp"
-        android:layout_marginStart="94dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        >
-
-
-        <ImageView android:id="@+id/add"
-            android:src="@drawable/bigadd"
-            android:contentDescription="vector_ek4"
-            android:layout_marginStart="7.71dp"
-            android:layout_marginTop="7.71dp"
-            android:layout_width="44.31dp"
-            android:layout_height="44.33dp" />
-
-    </RelativeLayout>
-
-
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="333dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
 
     <View   android:id="@+id/rectangle_29"
         android:background="@drawable/rectangle_29_shape"
-        android:layout_marginStart="85dp"
+        android:layout_marginStart="92dp"
         android:layout_marginTop="24dp"
         android:layout_width="101dp"
         android:layout_height="38dp" />
 
-    <View   android:id="@+id/rectangle_31"
+    <View   android:id="@+id/create"
         android:background="@drawable/rectangle_31_shape"
-        android:layout_marginStart="203dp"
+        android:layout_marginStart="210dp"
         android:layout_marginTop="24dp"
         android:layout_width="101dp"
         android:alpha="0.33"
         android:layout_height="38dp" />
 
-    <TextView android:id="@+id/record"
+    <TextView android:id="@+id/uploadsong"
+        android:textSize="17sp"
+        android:textColor="@color/_bg__add__record__screen_color"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="25.7dp"
+        android:text="Upload"
+        />
+
+    <TextView android:id="@+id/createplaylist"
         android:textSize="17sp"
         android:textColor="@color/khayaal_color"
-        android:layout_marginLeft="107dp"
+        android:layout_marginLeft="232dp"
         android:layout_marginTop="32dp"
         android:layout_width="72.7dp"
         android:layout_height="25.7dp"
-        android:text="@string/record_string"
+        android:text="Create"
         />
+    <ImageView
+        android:id="@+id/uploadedimage"
+        android:src="@drawable/bigadd"
+        android:contentDescription="vector_ek4"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="85dp"
+        android:layout_width="64.31dp"
+        android:layout_height="64.33dp" />
+<!--    <ImageView   android:id="@+id/rectangle_43"-->
+<!--        android:background="@drawable/rectangle_43_shape"-->
+<!--        android:layout_marginStart="60dp"-->
+<!--        android:layout_marginTop="453dp"-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp" />-->
+
+
+<!--    <ImageView android:id="@+id/add2"-->
+<!--        android:src="@drawable/bigadd"-->
+<!--        android:contentDescription="vector_ek4"-->
+<!--        android:layout_marginTop="480dp"-->
+<!--        android:layout_marginStart="85dp"-->
+<!--        android:layout_width="64.31dp"-->
+<!--        android:layout_height="64.33dp" />-->
+
+    <View
+        android:id="@+id/buttonUpload"
+        android:layout_width="101dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/rectangle_31_shape" />
 
     <TextView android:id="@+id/upload"
         android:textSize="17sp"
         android:textColor="@color/_bg__add__upload__screen_color"
-        android:layout_marginLeft="225dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="467dp"
         android:layout_width="72.7dp"
         android:layout_height="25.7dp"
         android:text="@string/upload_string"
@@ -82,62 +100,53 @@
         android:textSize="22sp"
         android:textColor="@color/khayaal_color"
         android:layout_marginLeft="29dp"
-        android:layout_marginTop="78dp"
+        android:layout_marginTop="118dp"
         android:layout_width="204.2dp"
         android:layout_height="37.2dp"
-        android:text="@string/upload_ek1_string"
+        android:text="Upload Song"
         />
 
-    <TextView android:id="@+id/create_playlist"
-        android:textSize="22sp"
-        android:textColor="@color/khayaal_color"
-        android:layout_marginLeft="34dp"
-        android:layout_marginTop="288dp"
-        android:layout_width="204.2dp"
-        android:layout_height="37.2dp"
-        android:text="@string/create_playlist_string"
-        />
+<!--    <TextView-->
+<!--        android:textSize="22sp"-->
+<!--        android:textColor="@color/khayaal_color"-->
+<!--        android:layout_marginLeft="34dp"-->
+<!--        android:layout_marginTop="408dp"-->
+<!--        android:layout_width="204.2dp"-->
+<!--        android:layout_height="37.2dp"-->
+<!--        android:text="@string/create_playlist_string"-->
+<!--        />-->
 
     <ImageView android:id="@+id/line_3"
         android:src="@drawable/line_3"
         android:contentDescription="line_3"
         android:layout_marginStart="-1dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="148dp"
         android:layout_width="411dp"
         android:layout_height="1dp" />
 
-    <ImageView android:id="@+id/line_4"
-        android:src="@drawable/line_4"
-        android:contentDescription="line_4"
-        android:layout_marginStart="-1dp"
-        android:layout_marginTop="319dp"
-        android:layout_width="411dp"
-        android:layout_height="1dp" />
+<!--    <ImageView android:id="@+id/line_4"-->
+<!--        android:src="@drawable/line_4"-->
+<!--        android:contentDescription="line_4"-->
+<!--        android:layout_marginStart="-1dp"-->
+<!--        android:layout_marginTop="439dp"-->
+<!--        android:layout_width="411dp"-->
+<!--        android:layout_height="1dp" />-->
 
     <View   android:id="@+id/rectangle_42"
         android:background="@drawable/rectangle_42_shape"
-        android:layout_marginStart="94dp"
-        android:layout_marginTop="133dp"
-        android:layout_width="219dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="173dp"
+        android:layout_width="120dp"
         android:layout_height="120dp" />
 
 
-    <RelativeLayout android:id="@+id/solar_upload_bold"
-        android:layout_marginTop="147dp"
-        android:layout_marginStart="164dp"
+    <RelativeLayout
+        android:id="@+id/buttonSelect"
+        android:layout_marginTop="195dp"
+        android:layout_marginStart="90dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         >
-
-
-
-
-        <RelativeLayout android:id="@+id/group"
-            android:layout_marginTop="4.06dp"
-            android:layout_marginStart="6.5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            >
 
 
             <ImageView android:id="@+id/vector_ek6"
@@ -156,34 +165,66 @@
                 android:layout_width="65dp"
                 android:layout_height="42.25dp" />
 
-        </RelativeLayout>
-
     </RelativeLayout>
 
-    <View   android:id="@+id/rectangle_1"
-        android:background="@drawable/rectangle_1_shape"
-        android:layout_marginStart="185dp"
-        android:layout_marginTop="384dp"
-        android:layout_width="138dp"
-        android:layout_height="30dp" />
-
-    <TextView android:id="@+id/name"
+    <EditText android:id="@+id/songname"
         android:textSize="16sp"
+        android:background="@drawable/rounded_text_background"
         android:textColor="@color/name_color"
-        android:layout_marginLeft="194dp"
-        android:layout_marginTop="388dp"
-        android:layout_width="98.6dp"
-        android:layout_height="17.6dp"
-        android:text="@string/name_string"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="208dp"
+        android:padding="7dp"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="Song name"
         />
+    <EditText android:id="@+id/artistname"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_text_background"
+        android:textColor="@color/name_color"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="368dp"
+        android:padding="7dp"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="Artist name"
+        />
+
+<!--    <EditText android:id="@+id/playlistname"-->
+<!--        android:textSize="16sp"-->
+<!--        android:background="@drawable/rounded_text_background"-->
+<!--        android:textColor="@color/name_color"-->
+<!--        android:layout_marginLeft="194dp"-->
+<!--        android:layout_marginTop="498dp"-->
+<!--        android:padding="7dp"-->
+<!--        android:layout_width="160dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="@string/name_string"-->
+<!--        />-->
+
+<!--    <View-->
+<!--        android:id="@+id/rectangle_3"-->
+<!--        android:layout_width="101dp"-->
+<!--        android:layout_height="38dp"-->
+<!--        android:layout_marginStart="253dp"-->
+<!--        android:layout_marginTop="560dp"-->
+<!--        android:background="@drawable/rectangle_31_shape" />-->
+
+<!--    <TextView android:id="@+id/create_playlist"-->
+<!--        android:textSize="17sp"-->
+<!--        android:textColor="@color/_bg__add__upload__screen_color"-->
+<!--        android:layout_marginLeft="275dp"-->
+<!--        android:layout_marginTop="567dp"-->
+<!--        android:layout_width="72.7dp"-->
+<!--        android:layout_height="25.7dp"-->
+<!--        android:text="Create"-->
+<!--        />-->
 
     <RelativeLayout
         android:id="@+id/bottom"
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-
-
         <RelativeLayout android:id="@+id/component_1"
             android:layout_below="@+id/component_2"
             android:layout_width="wrap_content"
@@ -213,7 +254,7 @@
                 android:layout_height="wrap_content"
                 >
 
-                <ImageView android:id="@+id/vector_ek1"
+                <ImageView android:id="@+id/playlist"
                     android:src="@drawable/library"
                     android:contentDescription="vector_ek1"
                     android:layout_marginStart="4.57dp"
@@ -223,7 +264,7 @@
 
             </RelativeLayout>
 
-            <ImageView android:id="@+id/vector_ek2"
+            <ImageView android:id="@+id/search"
                 android:src="@drawable/search"
                 android:contentDescription="vector_ek2"
                 android:layout_marginStart="134.72dp"
@@ -238,7 +279,7 @@
                 android:layout_height="wrap_content"
                 >
 
-                <ImageView android:id="@+id/vector_ek3"
+                <ImageView android:id="@+id/home"
                     android:src="@drawable/home"
                     android:contentDescription="vector_ek3"
                     android:layout_marginStart="3.43dp"
@@ -254,7 +295,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 >
-                <ImageView android:id="@+id/vector_ek4"
+                <ImageView android:id="@+id/add"
                     android:src="@drawable/add"
                     android:contentDescription="vector_ek4"
                     android:layout_marginStart="3.42dp"
@@ -316,7 +357,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/play"
+                    android:id="@+id/vector_ek5"
                     android:src="@drawable/play"
                     android:contentDescription="vector_ek5"
                     android:layout_marginStart="1.5dp"
@@ -327,6 +368,5 @@
             </RelativeLayout>
 
         </RelativeLayout>
-
     </RelativeLayout>
 </RelativeLayout>

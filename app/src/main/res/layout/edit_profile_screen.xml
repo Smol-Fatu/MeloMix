@@ -13,56 +13,70 @@
         android:layout_height="match_parent" />
 
 
-    <RelativeLayout android:id="@+id/uil_setting"
-        android:layout_marginTop="357dp"
-        android:layout_marginStart="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        >
+<!--    <RelativeLayout android:id="@+id/uil_setting"-->
+<!--        android:layout_marginTop="357dp"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        >-->
 
-        <ImageView
-            android:id="@+id/vector"
-            android:layout_width="19.65dp"
-            android:layout_height="20dp"
-            android:layout_marginStart="1.86dp"
-            android:layout_marginTop="2dp"
-            android:contentDescription="vector"
-            android:src="@drawable/setting" />
+<!--        <ImageView-->
+<!--            android:id="@+id/vector"-->
+<!--            android:layout_width="19.65dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginStart="1.86dp"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:contentDescription="vector"-->
+<!--            android:src="@drawable/setting" />-->
 
-    </RelativeLayout>
+<!--    </RelativeLayout>-->
 
 
 
 
 
     <TextView android:id="@+id/user_profile"
-        android:textSize="25sp"
+        android:textSize="22sp"
         android:textColor="@color/khayaal_color"
-        android:layout_marginLeft="101dp"
+        android:layout_marginLeft="95dp"
         android:layout_marginTop="31dp"
-        android:layout_width="206.5dp"
-        android:layout_height="38.5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Edit Profile"
         />
 
-    <ImageView android:id="@+id/line_3"
-        android:src="@drawable/line_3"
-        android:contentDescription="line_3"
-        android:layout_marginStart="-1dp"
-        android:layout_marginTop="85dp"
-        android:layout_width="411dp"
-        android:layout_height="5dp" />
+    <TextView
+        android:id="@+id/savechanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:autoLink="all"
+        android:textSize="18dp"
+        android:clickable="true"
+        android:textColor="@color/teal_200"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginStart="250dp"/>
 
-    <ImageView android:id="@+id/line_4"
-        android:src="@drawable/line_4"
-        android:contentDescription="line_4"
-        android:layout_marginStart="-1dp"
-        android:layout_marginTop="386dp"
-        android:layout_width="411dp"
-        android:layout_height="5dp" />
+<!--    <ImageView android:id="@+id/line_3"-->
+<!--        android:src="@drawable/line_3"-->
+<!--        android:contentDescription="line_3"-->
+<!--        android:layout_marginStart="-1dp"-->
+<!--        android:layout_marginTop="85dp"-->
+<!--        android:layout_width="411dp"-->
+<!--        android:layout_height="5dp" />-->
 
-    <ImageView android:id="@+id/ellipse_5"
-        android:src="@drawable/ellipse_5"
+<!--    <ImageView android:id="@+id/line_4"-->
+<!--        android:src="@drawable/line_4"-->
+<!--        android:contentDescription="line_4"-->
+<!--        android:layout_marginStart="-1dp"-->
+<!--        android:layout_marginTop="386dp"-->
+<!--        android:layout_width="411dp"-->
+<!--        android:layout_height="5dp" />-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/uploadedimage"
+        android:src="@drawable/placeholder"
         android:contentDescription="ellipse_5"
         android:layout_marginStart="15dp"
         android:layout_marginTop="14dp"
@@ -90,47 +104,47 @@
         android:layout_width="341dp"
         android:layout_height="45dp" />
 
-    <TextView android:id="@+id/abdur_raheem"
+    <EditText android:id="@+id/name"
+        android:textSize="19sp"
+        android:textColorHint="@color/name_color"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter new name"
+        />
+
+    <EditText android:id="@+id/email"
+        android:textSize="19sp"
+        android:textColorHint="@color/name_color"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="264dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter new email"
+        />
+
+    <TextView android:id="@+id/changeimage"
         android:textSize="19sp"
         android:textColor="@color/khayaal_color"
         android:layout_marginLeft="41dp"
-        android:layout_marginTop="130dp"
-        android:layout_width="143.9dp"
-        android:layout_height="32.9dp"
-        android:text="@string/abdur_raheem_string"
-        />
-
-    <TextView android:id="@+id/raheemqureshi597_gmail_com"
-        android:textSize="19sp"
-        android:textColor="@color/khayaal_color"
-        android:layout_marginLeft="41dp"
-        android:layout_marginTop="274dp"
-        android:layout_width="276.9dp"
-        android:layout_height="32.9dp"
-        android:text="@string/raheemqureshi597_gmail_com_string"
-        />
-
-    <TextView android:id="@+id/settings"
-        android:textSize="19sp"
-        android:textColor="@color/khayaal_color"
-        android:layout_marginLeft="65dp"
         android:layout_marginTop="357dp"
-        android:layout_width="86.9dp"
-        android:layout_height="32.9dp"
-        android:text="@string/settings_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change profile image"
         />
 
-    <TextView android:id="@+id/abdurraheem11"
+    <EditText android:id="@+id/username"
         android:textSize="19sp"
-        android:textColor="@color/khayaal_color"
+        android:textColorHint="@color/name_color"
         android:layout_marginLeft="41dp"
-        android:layout_marginTop="200dp"
-        android:layout_width="143.9dp"
-        android:layout_height="32.9dp"
-        android:text="@string/abdurraheem11_string"
+        android:layout_marginTop="190dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter new username"
         />
 
-    <TextView android:id="@+id/name"
+    <TextView
         android:textSize="13sp"
         android:textColor="@color/khayaal_color"
         android:layout_marginLeft="41dp"
@@ -140,7 +154,7 @@
         android:text="@string/name_string"
         />
 
-    <TextView android:id="@+id/email"
+    <TextView
         android:textSize="13sp"
         android:textColor="@color/khayaal_color"
         android:layout_marginLeft="41dp"
@@ -150,7 +164,7 @@
         android:text="@string/email_string"
         />
 
-    <TextView android:id="@+id/username"
+    <TextView
         android:textSize="13sp"
         android:textColor="@color/khayaal_color"
         android:layout_marginLeft="41dp"
@@ -163,7 +177,7 @@
     <View   android:id="@+id/rectangle_31"
         android:background="@drawable/rectangle_31_shape"
         android:layout_marginStart="111dp"
-        android:layout_marginTop="486dp"
+        android:layout_marginTop="536dp"
         android:layout_width="200dp"
         android:layout_height="38dp" />
 
@@ -171,14 +185,14 @@
         android:textSize="19sp"
         android:textColor="@color/khayaal_color"
         android:layout_marginLeft="172dp"
-        android:layout_marginTop="491dp"
+        android:layout_marginTop="541dp"
         android:layout_width="86.9dp"
         android:layout_height="32.9dp"
         android:text="@string/log_out_string"
         />
 
 
-    <RelativeLayout android:id="@+id/tabler_edit"
+    <RelativeLayout android:id="@+id/nameedit"
         android:layout_marginTop="132dp"
         android:layout_marginStart="328dp"
         android:layout_width="wrap_content"
@@ -216,7 +230,7 @@
     </RelativeLayout>
 
 
-    <RelativeLayout android:id="@+id/tabler_edit_ek2"
+    <RelativeLayout android:id="@+id/usernameedit"
         android:layout_marginTop="202dp"
         android:layout_marginStart="328dp"
         android:layout_width="wrap_content"
@@ -254,7 +268,7 @@
     </RelativeLayout>
 
 
-    <RelativeLayout android:id="@+id/tabler_edit_ek4"
+    <RelativeLayout android:id="@+id/emailedit"
         android:layout_marginTop="276dp"
         android:layout_marginStart="328dp"
         android:layout_width="wrap_content"
@@ -290,26 +304,62 @@
 
     </RelativeLayout>
 
-
-    <RelativeLayout android:id="@+id/grommet_icons_form_next"
-        android:layout_marginTop="354dp"
-        android:layout_marginStart="335dp"
+    <RelativeLayout android:id="@+id/uploadphoto"
+        android:layout_marginTop="356dp"
+        android:layout_marginStart="328dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         >
 
 
-        <ImageView android:id="@+id/vector_ek12"
-            android:src="@drawable/next"
-            android:contentDescription="vector_ek12"
-            android:layout_marginStart="10.75dp"
-            android:layout_marginTop="6.5dp"
-            android:layout_width="10.62dp"
-            android:layout_height="18.41dp" />
+        <RelativeLayout android:id="@+id/group_ek5"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+            <ImageView android:id="@+id/vector_ek15"
+                android:src="@drawable/paper"
+                android:contentDescription="vector_ek10"
+                android:layout_marginStart="-2dp"
+                android:layout_marginTop="2dp"
+                android:layout_width="17dp"
+                android:layout_height="15dp" />
+
+            <ImageView android:id="@+id/vector_ek16"
+                android:src="@drawable/pen"
+                android:contentDescription="vector_ek11"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="-2dp"
+                android:layout_width="14dp"
+                android:layout_height="14dp" />
+
+        </RelativeLayout>
 
     </RelativeLayout>
 
+<!--    <RelativeLayout android:id="@+id/grommet_icons_form_next"-->
+<!--        android:layout_marginTop="354dp"-->
+<!--        android:layout_marginStart="335dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        >-->
+
+
+<!--        <ImageView android:id="@+id/vector_ek12"-->
+<!--            android:src="@drawable/next"-->
+<!--            android:contentDescription="vector_ek12"-->
+<!--            android:layout_marginStart="10.75dp"-->
+<!--            android:layout_marginTop="6.5dp"-->
+<!--            android:layout_width="10.62dp"-->
+<!--            android:layout_height="18.41dp" />-->
+
+<!--    </RelativeLayout>-->
+
     <RelativeLayout
+        android:id="@+id/bottom"
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -342,7 +392,7 @@
                 android:layout_height="wrap_content"
                 >
 
-                <ImageView android:id="@+id/vector_ek1"
+                <ImageView android:id="@+id/playlist"
                     android:src="@drawable/library"
                     android:contentDescription="vector_ek1"
                     android:layout_marginStart="4.57dp"
@@ -352,7 +402,7 @@
 
             </RelativeLayout>
 
-            <ImageView android:id="@+id/vector_ek2"
+            <ImageView android:id="@+id/search"
                 android:src="@drawable/search"
                 android:contentDescription="vector_ek2"
                 android:layout_marginStart="134.72dp"
@@ -367,7 +417,7 @@
                 android:layout_height="wrap_content"
                 >
 
-                <ImageView android:id="@+id/vector_ek3"
+                <ImageView android:id="@+id/home"
                     android:src="@drawable/home"
                     android:contentDescription="vector_ek3"
                     android:layout_marginStart="3.43dp"
@@ -383,7 +433,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 >
-                <ImageView android:id="@+id/vector_ek4"
+                <ImageView android:id="@+id/add"
                     android:src="@drawable/add"
                     android:contentDescription="vector_ek4"
                     android:layout_marginStart="3.42dp"

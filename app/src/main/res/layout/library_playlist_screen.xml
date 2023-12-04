@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/content_container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent">
 
     <View   android:id="@+id/_bg__library_playlist__screen"
         android:background="@drawable/_bg__library_playlist__screen_shape"
@@ -12,7 +13,7 @@
         android:layout_height="match_parent" />
 
 
-    <RelativeLayout android:id="@+id/grommet_icons_form_next"
+    <RelativeLayout android:id="@+id/editprofile"
         android:layout_marginTop="104dp"
         android:layout_marginStart="333dp"
         android:layout_width="wrap_content"
@@ -30,6 +31,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/bottom"
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -62,7 +64,7 @@
                 android:layout_height="wrap_content"
                 >
 
-                <ImageView android:id="@+id/vector_ek1"
+                <ImageView android:id="@+id/playlist"
                     android:src="@drawable/library"
                     android:contentDescription="vector_ek1"
                     android:layout_marginStart="4.57dp"
@@ -72,7 +74,7 @@
 
             </RelativeLayout>
 
-            <ImageView android:id="@+id/vector_ek2"
+            <ImageView android:id="@+id/search"
                 android:src="@drawable/search"
                 android:contentDescription="vector_ek2"
                 android:layout_marginStart="134.72dp"
@@ -87,7 +89,7 @@
                 android:layout_height="wrap_content"
                 >
 
-                <ImageView android:id="@+id/vector_ek3"
+                <ImageView android:id="@+id/home"
                     android:src="@drawable/home"
                     android:contentDescription="vector_ek3"
                     android:layout_marginStart="3.43dp"
@@ -103,7 +105,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 >
-                <ImageView android:id="@+id/vector_ek4"
+                <ImageView android:id="@+id/add"
                     android:src="@drawable/add"
                     android:contentDescription="vector_ek4"
                     android:layout_marginStart="3.42dp"
@@ -241,7 +243,7 @@
         android:text="@string/your_playlists_string"
         />
 
-    <TextView android:id="@+id/abdur_raheem"
+    <TextView android:id="@+id/Name"
         android:textSize="22sp"
         android:textColor="@color/khayaal_color"
         android:layout_marginLeft="115dp"
@@ -427,12 +429,16 @@
         android:layout_width="72dp"
         android:layout_height="71dp" />
 
-    <ImageView android:id="@+id/ellipse_5"
-        android:src="@drawable/ellipse_5"
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilepic"
+        android:src="@drawable/placeholder"
         android:contentDescription="ellipse_5"
         android:layout_marginStart="35dp"
         android:layout_marginTop="86dp"
         android:layout_width="66dp"
-        android:layout_height="66dp" />
+        android:layout_height="66dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FFFFFFFF"
+        />
 
 </RelativeLayout>

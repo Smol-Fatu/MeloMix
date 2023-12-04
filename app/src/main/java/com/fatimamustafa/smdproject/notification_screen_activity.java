@@ -33,7 +33,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class notification_screen_activity extends AppCompatActivity {
-    ImageView home;
+    ImageView home,search, library,add;
     private List<Notification> notificationList;
     private NotificationAdapter notificationAdapter;
     @SuppressLint("MissingInflatedId")
@@ -52,10 +52,35 @@ public class notification_screen_activity extends AppCompatActivity {
         fetchDataFromServer();
 
         home = findViewById(R.id.home);
+        search = findViewById(R.id.search);
+        library = findViewById(R.id.playlist);
+        add = findViewById(R.id.add);
+
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(notification_screen_activity.this, home_screen_activity.class);
+                startActivity(intent);
+            }
+        });
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(notification_screen_activity.this, search_screen_activity.class);
+                startActivity(intent);
+            }
+        });
+        library.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(notification_screen_activity.this, library_playlist__screen_activity.class);
+                startActivity(intent);
+            }
+        });
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(notification_screen_activity.this, add__upload__screen_activity.class);
                 startActivity(intent);
             }
         });
